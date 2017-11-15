@@ -1,0 +1,875 @@
+{
+  "contractName": "TokenSaleConfig",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_NAME",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TIER1_RATE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "CONTRIBUTION_MAX",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_SYMBOL",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TIER3_RATE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKENS_SALE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKENS_EARLY_INVESTORS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_DECIMALS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "DECIMALSFACTOR",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKENS_ADVISORS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "CONTRIBUTION_MIN",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TIER2_RATE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKENS_FOUNDERS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b61034e8061001e6000396000f3006060604052600436106100c45763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631882140081146100c957806319ac2756146101535780631a2309f0146101785780632a9053181461018b5780632cb3ce8c1461019e5780633280922b146101b157806342702ac9146101c45780635b7f415c146101d75780638bc04eb7146102005780639978be9514610213578063ba9bb82714610226578063f0a15f1014610239578063f653279c146101c4575b600080fd5b34156100d457600080fd5b6100dc61024c565b60405160208082528190810183818151815260200191508051906020019080838360005b83811015610118578082015183820152602001610100565b50505050905090810190601f1680156101455780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561015e57600080fd5b610166610283565b60405190815260200160405180910390f35b341561018357600080fd5b61016661028a565b341561019657600080fd5b6100dc610297565b34156101a957600080fd5b6101666102ce565b34156101bc57600080fd5b6101666102d4565b34156101cf57600080fd5b6101666102e2565b34156101e257600080fd5b6101ea6102f0565b60405160ff909116815260200160405180910390f35b341561020b57600080fd5b6101666102f5565b341561021e57600080fd5b610166610301565b341561023157600080fd5b61016661030f565b341561024457600080fd5b61016661031b565b60408051908101604052600d81527f417765736f6d6520546f6b656e00000000000000000000000000000000000000602082015281565b620186a081565b68056bc75e2d6310000081565b60408051908101604052600381527f4157450000000000000000000000000000000000000000000000000000000000602082015281565b61c35081565b6969e10de76676d080000081565b692a5a058fc295ed00000081565b601281565b670de0b6b3a764000081565b690a968163f0a57b40000081565b67016345785d8a000081565b62011170815600a165627a7a72305820212b20c377ca79e3a3635e22a5b8afe0e7e53f4395dca49c58f6c6646e9d967d0029",
+  "deployedBytecode": "0x6060604052600436106100c45763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631882140081146100c957806319ac2756146101535780631a2309f0146101785780632a9053181461018b5780632cb3ce8c1461019e5780633280922b146101b157806342702ac9146101c45780635b7f415c146101d75780638bc04eb7146102005780639978be9514610213578063ba9bb82714610226578063f0a15f1014610239578063f653279c146101c4575b600080fd5b34156100d457600080fd5b6100dc61024c565b60405160208082528190810183818151815260200191508051906020019080838360005b83811015610118578082015183820152602001610100565b50505050905090810190601f1680156101455780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561015e57600080fd5b610166610283565b60405190815260200160405180910390f35b341561018357600080fd5b61016661028a565b341561019657600080fd5b6100dc610297565b34156101a957600080fd5b6101666102ce565b34156101bc57600080fd5b6101666102d4565b34156101cf57600080fd5b6101666102e2565b34156101e257600080fd5b6101ea6102f0565b60405160ff909116815260200160405180910390f35b341561020b57600080fd5b6101666102f5565b341561021e57600080fd5b610166610301565b341561023157600080fd5b61016661030f565b341561024457600080fd5b61016661031b565b60408051908101604052600d81527f417765736f6d6520546f6b656e00000000000000000000000000000000000000602082015281565b620186a081565b68056bc75e2d6310000081565b60408051908101604052600381527f4157450000000000000000000000000000000000000000000000000000000000602082015281565b61c35081565b6969e10de76676d080000081565b692a5a058fc295ed00000081565b601281565b670de0b6b3a764000081565b690a968163f0a57b40000081565b67016345785d8a000081565b62011170815600a165627a7a72305820212b20c377ca79e3a3635e22a5b8afe0e7e53f4395dca49c58f6c6646e9d967d0029",
+  "sourceMap": "55:1308:4:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "55:1308:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;106:56:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;71:3;;;64:6;52:2;45:3;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;487:60:4;;;;;;;;;;;;;;;;;;;;;;;;;;;770:61;;;;;;;;;;;;54:46:3;;;;;;;;;;;;619:60:4;;;;;;;;;;;;838:75;;;;;;;;;;;;1104:76;;;;;;;;;;;;168:43:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;218:68;;;;;;;;;;;;1016:76:4;;;;;;;;;;;;687:64;;;;;;;;;;;;553:60;;;;;;;;;;;;106:56:3;;;;;;;;;;;;;;;;;;:::o;487:60:4:-;541:6;487:60;:::o;770:61::-;822:9;770:61;:::o;54:46:3:-;;;;;;;;;;;;;;;;;;:::o;619:60:4:-;674:5;619:60;:::o;838:75::-;890:23;838:75;:::o;1104:76::-;1156:24;1104:76;:::o;168:43:3:-;209:2;168:43;:::o;218:68::-;259:27;218:68;:::o;1016:76:4:-;1069:23;1016:76;:::o;687:64::-;739:12;687:64;:::o;553:60::-;608:5;553:60;:::o",
+  "source": "pragma solidity ^0.4.18;\n\nimport \"./TokenConfig.sol\";\n\ncontract TokenSaleConfig is TokenConfig {\n\n    /*uint256 public constant START_TIME                = 1510664400; // xxxx-xx-xx xx:xx:xx UTC\n    uint256 public constant PHASE2_START_TIME         = 1510750800; // xxxx-xx-xx xx:xx:xx UTC\n    uint256 public constant PHASE3_START_TIME         = 1510750800; // xxxx-xx-xx xx:xx:xx UTC\n    uint256 public constant END_TIME                  = 1511269199; // xxxx-xx-xx xx:xx:xx UTC*/\n\n    uint256 public constant TIER1_RATE                  = 100000;\n    uint256 public constant TIER2_RATE                  =  70000;\n    uint256 public constant TIER3_RATE                  =  50000;\n\n\n    uint256 public constant CONTRIBUTION_MIN          = 1 * 10 ** 17; // 0.1 ether\n    uint256 public constant CONTRIBUTION_MAX          = 100 ether;\n\n    uint256 public constant TOKENS_SALE               = 500000 * DECIMALSFACTOR;  // 50%\n    uint256 public constant TOKENS_FOUNDERS           = 200000  * DECIMALSFACTOR; // 30%\n    uint256 public constant TOKENS_ADVISORS           =  50000  * DECIMALSFACTOR; // 5%\n    uint256 public constant TOKENS_EARLY_INVESTORS    = 200000  * DECIMALSFACTOR; // 15%\n    //uint256 public constant TOKENS_ACCELERATOR_MAX    = 257558034 * DECIMALSFACTOR;\n    //uint256 public constant TOKENS_FUTURE             = 120000000 * DECIMALSFACTOR;\n\n}\n",
+  "sourcePath": "/Users/pabloruiz55/Documents/dapps/Crowdsale/contracts/config/TokenSaleConfig.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/pabloruiz55/Documents/dapps/Crowdsale/contracts/config/TokenSaleConfig.sol",
+      "exportedSymbols": {
+        "TokenSaleConfig": [
+          511
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".18"
+          ]
+        },
+        "id": 468,
+        "name": "PragmaDirective",
+        "src": "0:24:4"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 467,
+          "absolutePath": "/Users/pabloruiz55/Documents/dapps/Crowdsale/contracts/config/TokenConfig.sol",
+          "file": "./TokenConfig.sol",
+          "scope": 512,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 469,
+        "name": "ImportDirective",
+        "src": "26:27:4"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            466
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            511,
+            466
+          ],
+          "name": "TokenSaleConfig",
+          "scope": 512
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": [
+                null
+              ]
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "TokenConfig",
+                  "referencedDeclaration": 466,
+                  "type": "contract TokenConfig"
+                },
+                "id": 470,
+                "name": "UserDefinedTypeName",
+                "src": "83:11:4"
+              }
+            ],
+            "id": 471,
+            "name": "InheritanceSpecifier",
+            "src": "83:11:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TIER1_RATE",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 472,
+                "name": "ElementaryTypeName",
+                "src": "487:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "313030303030",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 100000",
+                  "value": "100000"
+                },
+                "id": 473,
+                "name": "Literal",
+                "src": "541:6:4"
+              }
+            ],
+            "id": 474,
+            "name": "VariableDeclaration",
+            "src": "487:60:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TIER2_RATE",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 475,
+                "name": "ElementaryTypeName",
+                "src": "553:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "3730303030",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 70000",
+                  "value": "70000"
+                },
+                "id": 476,
+                "name": "Literal",
+                "src": "608:5:4"
+              }
+            ],
+            "id": 477,
+            "name": "VariableDeclaration",
+            "src": "553:60:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TIER3_RATE",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 478,
+                "name": "ElementaryTypeName",
+                "src": "619:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "3530303030",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 50000",
+                  "value": "50000"
+                },
+                "id": 479,
+                "name": "Literal",
+                "src": "674:5:4"
+              }
+            ],
+            "id": 480,
+            "name": "VariableDeclaration",
+            "src": "619:60:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "CONTRIBUTION_MIN",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 481,
+                "name": "ElementaryTypeName",
+                "src": "687:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_rational_100000000000000000_by_1",
+                    "typeString": "int_const 100000000000000000"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "*",
+                  "type": "int_const 100000000000000000"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "31",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 1",
+                      "value": "1"
+                    },
+                    "id": 482,
+                    "name": "Literal",
+                    "src": "739:1:4"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "commonType": {
+                        "typeIdentifier": "t_rational_100000000000000000_by_1",
+                        "typeString": "int_const 100000000000000000"
+                      },
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "operator": "**",
+                      "type": "int_const 100000000000000000"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "3130",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "number",
+                          "type": "int_const 10",
+                          "value": "10"
+                        },
+                        "id": 483,
+                        "name": "Literal",
+                        "src": "743:2:4"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "3137",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "number",
+                          "type": "int_const 17",
+                          "value": "17"
+                        },
+                        "id": 484,
+                        "name": "Literal",
+                        "src": "749:2:4"
+                      }
+                    ],
+                    "id": 485,
+                    "name": "BinaryOperation",
+                    "src": "743:8:4"
+                  }
+                ],
+                "id": 486,
+                "name": "BinaryOperation",
+                "src": "739:12:4"
+              }
+            ],
+            "id": 487,
+            "name": "VariableDeclaration",
+            "src": "687:64:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "CONTRIBUTION_MAX",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 488,
+                "name": "ElementaryTypeName",
+                "src": "770:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "313030",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": "ether",
+                  "token": "number",
+                  "type": "int_const 100000000000000000000",
+                  "value": "100"
+                },
+                "id": 489,
+                "name": "Literal",
+                "src": "822:9:4"
+              }
+            ],
+            "id": 490,
+            "name": "VariableDeclaration",
+            "src": "770:61:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKENS_SALE",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 491,
+                "name": "ElementaryTypeName",
+                "src": "838:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "*",
+                  "type": "uint256"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "353030303030",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 500000",
+                      "value": "500000"
+                    },
+                    "id": 492,
+                    "name": "Literal",
+                    "src": "890:6:4"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+                      "referencedDeclaration": 465,
+                      "type": "uint256",
+                      "value": "DECIMALSFACTOR"
+                    },
+                    "id": 493,
+                    "name": "Identifier",
+                    "src": "899:14:4"
+                  }
+                ],
+                "id": 494,
+                "name": "BinaryOperation",
+                "src": "890:23:4"
+              }
+            ],
+            "id": 495,
+            "name": "VariableDeclaration",
+            "src": "838:75:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKENS_FOUNDERS",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 496,
+                "name": "ElementaryTypeName",
+                "src": "927:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "*",
+                  "type": "uint256"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "323030303030",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 200000",
+                      "value": "200000"
+                    },
+                    "id": 497,
+                    "name": "Literal",
+                    "src": "979:6:4"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+                      "referencedDeclaration": 465,
+                      "type": "uint256",
+                      "value": "DECIMALSFACTOR"
+                    },
+                    "id": 498,
+                    "name": "Identifier",
+                    "src": "989:14:4"
+                  }
+                ],
+                "id": 499,
+                "name": "BinaryOperation",
+                "src": "979:24:4"
+              }
+            ],
+            "id": 500,
+            "name": "VariableDeclaration",
+            "src": "927:76:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKENS_ADVISORS",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 501,
+                "name": "ElementaryTypeName",
+                "src": "1016:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "*",
+                  "type": "uint256"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "3530303030",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 50000",
+                      "value": "50000"
+                    },
+                    "id": 502,
+                    "name": "Literal",
+                    "src": "1069:5:4"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+                      "referencedDeclaration": 465,
+                      "type": "uint256",
+                      "value": "DECIMALSFACTOR"
+                    },
+                    "id": 503,
+                    "name": "Identifier",
+                    "src": "1078:14:4"
+                  }
+                ],
+                "id": 504,
+                "name": "BinaryOperation",
+                "src": "1069:23:4"
+              }
+            ],
+            "id": 505,
+            "name": "VariableDeclaration",
+            "src": "1016:76:4"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKENS_EARLY_INVESTORS",
+              "scope": 511,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 506,
+                "name": "ElementaryTypeName",
+                "src": "1104:7:4"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "*",
+                  "type": "uint256"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "323030303030",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 200000",
+                      "value": "200000"
+                    },
+                    "id": 507,
+                    "name": "Literal",
+                    "src": "1156:6:4"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+                      "referencedDeclaration": 465,
+                      "type": "uint256",
+                      "value": "DECIMALSFACTOR"
+                    },
+                    "id": 508,
+                    "name": "Identifier",
+                    "src": "1166:14:4"
+                  }
+                ],
+                "id": 509,
+                "name": "BinaryOperation",
+                "src": "1156:24:4"
+              }
+            ],
+            "id": 510,
+            "name": "VariableDeclaration",
+            "src": "1104:76:4"
+          }
+        ],
+        "id": 511,
+        "name": "ContractDefinition",
+        "src": "55:1308:4"
+      }
+    ],
+    "id": 512,
+    "name": "SourceUnit",
+    "src": "0:1364:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-15T00:39:22.165Z"
+}

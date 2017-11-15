@@ -1,0 +1,366 @@
+{
+  "contractName": "TokenConfig",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_NAME",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_SYMBOL",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "TOKEN_DECIMALS",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "DECIMALSFACTOR",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b6101fc8061001e6000396000f3006060604052600436106100615763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631882140081146100665780632a905318146100f05780635b7f415c146101035780638bc04eb71461012c575b600080fd5b341561007157600080fd5b610079610151565b60405160208082528190810183818151815260200191508051906020019080838360005b838110156100b557808201518382015260200161009d565b50505050905090810190601f1680156100e25780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156100fb57600080fd5b610079610188565b341561010e57600080fd5b6101166101bf565b60405160ff909116815260200160405180910390f35b341561013757600080fd5b61013f6101c4565b60405190815260200160405180910390f35b60408051908101604052600d81527f417765736f6d6520546f6b656e00000000000000000000000000000000000000602082015281565b60408051908101604052600381527f4157450000000000000000000000000000000000000000000000000000000000602082015281565b601281565b670de0b6b3a7640000815600a165627a7a72305820897c4ea6b119ca2bfcb215c25101762013eada64aa1bbfc8943bc1c4f33770d10029",
+  "deployedBytecode": "0x6060604052600436106100615763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631882140081146100665780632a905318146100f05780635b7f415c146101035780638bc04eb71461012c575b600080fd5b341561007157600080fd5b610079610151565b60405160208082528190810183818151815260200191508051906020019080838360005b838110156100b557808201518382015260200161009d565b50505050905090810190601f1680156100e25780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156100fb57600080fd5b610079610188565b341561010e57600080fd5b6101166101bf565b60405160ff909116815260200160405180910390f35b341561013757600080fd5b61013f6101c4565b60405190815260200160405180910390f35b60408051908101604052600d81527f417765736f6d6520546f6b656e00000000000000000000000000000000000000602082015281565b60408051908101604052600381527f4157450000000000000000000000000000000000000000000000000000000000602082015281565b601281565b670de0b6b3a7640000815600a165627a7a72305820897c4ea6b119ca2bfcb215c25101762013eada64aa1bbfc8943bc1c4f33770d10029",
+  "sourceMap": "26:263:3:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:263:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;106:56;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;71:3;;;64:6;52:2;45:3;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;54:46:3;;;;;;;;;;;;168:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;218:68;;;;;;;;;;;;;;;;;;;;;;;;;;;106:56;;;;;;;;;;;;;;;;;;:::o;54:46::-;;;;;;;;;;;;;;;;;;:::o;168:43::-;209:2;168:43;:::o;218:68::-;259:27;218:68;:::o",
+  "source": "pragma solidity ^0.4.18;\n\ncontract TokenConfig {\n\n    string  public constant TOKEN_SYMBOL   = \"AWE\";\n    string  public constant TOKEN_NAME     = \"Awesome Token\";\n    uint8   public constant TOKEN_DECIMALS = 18;\n\n    uint256 public constant DECIMALSFACTOR = 10**uint256(TOKEN_DECIMALS);\n}\n",
+  "sourcePath": "/Users/pabloruiz55/Documents/dapps/Crowdsale/contracts/config/TokenConfig.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/pabloruiz55/Documents/dapps/Crowdsale/contracts/config/TokenConfig.sol",
+      "exportedSymbols": {
+        "TokenConfig": [
+          466
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".18"
+          ]
+        },
+        "id": 449,
+        "name": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            466
+          ],
+          "name": "TokenConfig",
+          "scope": 467
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKEN_SYMBOL",
+              "scope": 466,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string memory",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string storage pointer"
+                },
+                "id": 450,
+                "name": "ElementaryTypeName",
+                "src": "54:6:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "415745",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"AWE\"",
+                  "value": "AWE"
+                },
+                "id": 451,
+                "name": "Literal",
+                "src": "95:5:3"
+              }
+            ],
+            "id": 452,
+            "name": "VariableDeclaration",
+            "src": "54:46:3"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKEN_NAME",
+              "scope": 466,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string memory",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string storage pointer"
+                },
+                "id": 453,
+                "name": "ElementaryTypeName",
+                "src": "106:6:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "417765736f6d6520546f6b656e",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"Awesome Token\"",
+                  "value": "Awesome Token"
+                },
+                "id": 454,
+                "name": "Literal",
+                "src": "147:15:3"
+              }
+            ],
+            "id": 455,
+            "name": "VariableDeclaration",
+            "src": "106:56:3"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "TOKEN_DECIMALS",
+              "scope": 466,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint8",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint8",
+                  "type": "uint8"
+                },
+                "id": 456,
+                "name": "ElementaryTypeName",
+                "src": "168:5:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "3138",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 18",
+                  "value": "18"
+                },
+                "id": 457,
+                "name": "Literal",
+                "src": "209:2:3"
+              }
+            ],
+            "id": 458,
+            "name": "VariableDeclaration",
+            "src": "168:43:3"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "DECIMALSFACTOR",
+              "scope": 466,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 459,
+                "name": "ElementaryTypeName",
+                "src": "218:7:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "**",
+                  "type": "uint256"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "3130",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 10",
+                      "value": "10"
+                    },
+                    "id": 460,
+                    "name": "Literal",
+                    "src": "259:2:3"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "isStructConstructorCall": false,
+                      "lValueRequested": false,
+                      "names": [
+                        null
+                      ],
+                      "type": "uint256",
+                      "type_conversion": true
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_uint8",
+                              "typeString": "uint8"
+                            }
+                          ],
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "type": "type(uint256)",
+                          "value": "uint256"
+                        },
+                        "id": 461,
+                        "name": "ElementaryTypeNameExpression",
+                        "src": "263:7:3"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 458,
+                          "type": "uint8",
+                          "value": "TOKEN_DECIMALS"
+                        },
+                        "id": 462,
+                        "name": "Identifier",
+                        "src": "271:14:3"
+                      }
+                    ],
+                    "id": 463,
+                    "name": "FunctionCall",
+                    "src": "263:23:3"
+                  }
+                ],
+                "id": 464,
+                "name": "BinaryOperation",
+                "src": "259:27:3"
+              }
+            ],
+            "id": 465,
+            "name": "VariableDeclaration",
+            "src": "218:68:3"
+          }
+        ],
+        "id": 466,
+        "name": "ContractDefinition",
+        "src": "26:263:3"
+      }
+    ],
+    "id": 467,
+    "name": "SourceUnit",
+    "src": "0:290:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-15T00:39:22.165Z"
+}
